@@ -1,0 +1,5 @@
+	MOV AL,F0
+	OUT 02
+	MOV AL,F5
+	OUT 02
+	END
