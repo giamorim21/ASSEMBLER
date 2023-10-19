@@ -1,0 +1,7 @@
+LER:	IN 00 
+	CMP AL,61 
+	JS LER 
+	CMP AL,7B 
+	JNS LER 
+	MOV [90],AL 
+	END
